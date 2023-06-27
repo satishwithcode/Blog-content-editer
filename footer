@@ -1,0 +1,11 @@
+<script>
+        tinymce.init({
+            selector:'#myTextarea',
+            plugins: 'image | link | table | insertdatetime',
+            toolbar: 'image | undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | image | fontfamily | code | underline | anchor | casechange | link | openlink | unlink | table tabledelete | tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol | insertdatetime',
+            image_list: [
+              { title: 'My image 1', value: 'https://www.example.com/my1.gif' },
+              { title: 'My image 2', value: 'http://www.moxiecode.com/my2.gif' }
+            ]
+        })
+    </script>
